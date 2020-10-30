@@ -81,6 +81,7 @@ video {
   display: block;*/
   top: 75%;
   left: 50%;
+  width: 100%;
   display: flexbox;
   position: absolute;
   white-space: nowrap;
@@ -92,6 +93,9 @@ video {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   background-color: #e9ecf4af;
+  /* Flexbox */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer .footer {
@@ -151,7 +155,7 @@ footer .footer {
 
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 20px;
+    font-size: 35px;
     z-index: 100;
     margin-bottom: auto;
   }
